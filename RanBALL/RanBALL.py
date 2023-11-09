@@ -1,4 +1,4 @@
-def Ramball(Exp,exp_type):
+def Ranball(Exp,exp_type):
     start_time = datetime.datetime.now()
     print("B-ALL subtype indentification...")
     if 'Exp' not in locals():
