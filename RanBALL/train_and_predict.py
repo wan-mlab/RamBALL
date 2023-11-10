@@ -4,6 +4,7 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import LabelEncoder
 from scipy.sparse import csr_matrix
 import math
+import os
 
 def ranM(scdata, p, seedn):
     # for random projection; note scdata: m*n, m is the feature dimensions, n is the sample number; p is the reduced dimension
@@ -23,10 +24,10 @@ def ranM(scdata, p, seedn):
     return x  # the same format, feature*sample
 
 def train_and_predict(tpm_test):
-    subtype = pd.read_csv('/data/subtype.csv',encoding='gbk')
+    subtype = pd.read_csv(os.path.dirname(__file__) + '/data/subtype.csv',encoding='gbk')
     dind = subtype[subtype.iloc[:,4] == '0'].index
     subtype = subtype.drop(index= dind)
-    tpm_train = pd.read_csv('/data/filter_HTSeq_TPM.csv')
+    tpm_train = pd.read_csv(os.path.dirname(__file__) + '/data/filter_HTSeq_TPM.csv')
     tpm_train = tpm_train.drop(index= subtype['patient'])
     ind = tpm_train[tpm_train.subtype == 'Other'].index
     tpm_train = tpm_train.drop(index= ind)
