@@ -9,11 +9,11 @@ def Predict(Exp,exp_type):
     print("-----------------------------------------------------------------------")
     print("Preprocessing:")
     
-    if 'exp_type' == 'Raw_count':
+    if exp_type == 'Raw_count':
         tpm = TPM.transform_counts(Exp)
-    elif 'exp_type' == 'FPKM':
+    elif exp_type == 'FPKM':
         tpm = TPM.transform_fpkm(Exp)
-    elif 'exp_type' == 'TPM':
+    elif exp_type == 'TPM':
         tpm = Exp
     
     results = train_and_predict(tpm_test = tpm)
