@@ -1,10 +1,8 @@
 import numpy as np
 import pandas as pd
-from sklearn.svm import SVC
-from sklearn.preprocessing import LabelEncoder
 from scipy.sparse import csr_matrix
 import math
-import os
+import os, pickle
 
 def ranM(scdata, p, seedn):
     # for random projection; note scdata: m*n, m is the feature dimensions, n is the sample number; p is the reduced dimension
