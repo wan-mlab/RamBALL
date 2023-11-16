@@ -14,6 +14,7 @@ cd /your path/RanBALL
 pip install .
 ```
 ## Tutorial
+### Jupyter notebook
 1. Modify the System Path and import module
 ```bash
 import sys; sys.path.append('RanBALL')
