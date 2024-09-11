@@ -37,4 +37,7 @@ RanBALL.Predict(Exp = test, exp_type = 'TPM')
 ## Authors
 Lusheng Li, Hanyu Xiao, Xinchao Wu, Shibiao Wan
 
-## publication
+## Publication
+RanBALL: Identifying B-cell acute lymphoblastic leukemia subtypes based on an ensemble random projection model, Cancer Research, vol. 84 (6_ Supplement), pp.4907-4907.
+*Li, L.., Xiao, H., Khoury, J. D., Wang, J., & Wan, S*.*
+[AACR Annual Meeting 2024, San Diego, CA, Apr. 2024](https://aacrjournals.org/cancerres/article/84/6_Supplement/4907/738413)
