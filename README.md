@@ -30,5 +30,8 @@ test = pd.read_csv('filter_TPM_test.csv', index_col=0)
 ```bash
 RanBALL.Predict(Exp = test, exp_type = 'TPM')
 ```
+   exp_type also could be 'Raw_count' and 'FPKM', which would be transformed to TPM for model training.
+4. Example Outputs
+   
 ## Authors
 Lusheng Li, Hanyu Xiao, Shibiao Wan
