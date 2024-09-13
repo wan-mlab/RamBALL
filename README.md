@@ -5,6 +5,11 @@
 ## Flowchart of RanBALL
 ![Flowchart of RanBALL](Flowchart.png)
 
+## Table of Contents
+- [Installation](#installation)
+- [Tutorial](#Tutorial)
+- [Authors](#Authors)
+- [Publication](#Publication)
 ## Installation
 1. Clone the RanBALL git repository
 ```bash
