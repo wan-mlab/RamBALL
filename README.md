@@ -7,7 +7,7 @@
 
 ## Table of Contents
 - [Installation](#installation)
-- [Tutorial](#Tutorial)
+- [Tutorials](#Tutorials)
 - [Authors](#Authors)
 - [Publication](#Publication)
 ## Installation
@@ -20,7 +20,7 @@ git clone https://github.com/wan-mlab/RanBALL.git
 cd /your path/RanBALL
 pip install .
 ```
-## Tutorial
+## Tutorials
 ### Jupyter notebook
 1. Modify the System Path and import module
 ```bash
