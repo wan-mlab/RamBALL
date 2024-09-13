@@ -8,7 +8,7 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Tutorials](#Tutorials)
-- [Bug Report](#Bug Report)
+- [Bug Report](#Bug-Report)
 - [Authors](#Authors)
 - [Publication](#Publication)
 ## Installation
