@@ -49,12 +49,12 @@ The prediction results will be stored and exported to the Prediction_results.csv
 If you find any bugs or problems, or you have any comments on RanBALL, please don't hesitate to contact via email lli@unmc.edu or [Issues](https://github.com/wan-mlab/RanBALL/issues).
 
 ## Authors
-Lusheng Li, Hanyu Xiao, Xinchao Wu, Shibiao Wan
+Lusheng Li, Shibiao Wan
 
 ## Publication
-RanBALL: Identifying B-cell acute lymphoblastic leukemia subtypes based on an ensemble random projection model, Cancer Research, vol. 84 (6_ Supplement), pp.4907-4907.
-*Li, L.., Xiao, H., Khoury, J. D., Wang, J., & Wan, S*.*
-[AACR Annual Meeting 2024, San Diego, CA, Apr. 2024](https://aacrjournals.org/cancerres/article/84/6_Supplement/4907/738413)
+RanBALL: An Ensemble Random Projection Model for Identifying Subtypes of B-cell Acute Lymphoblastic Leukemia
+Lusheng Li, Hanyu Xiao, Xinchao Wu, Zhenya Tang, Joseph D. Khoury, Jieqiong Wang, Shibiao Wan
+bioRxiv 2024.09.24.614777; doi: https://doi.org/10.1101/2024.09.24.614777
 
 ## License 
 
